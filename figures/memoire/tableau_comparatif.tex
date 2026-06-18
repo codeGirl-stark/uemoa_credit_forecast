@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Comparaison des performances prédictives — modèles économétriques et ML}
+\label{tab:comparaison_modeles}
+\begin{tabular}{llrrrr}
+\toprule
+Modèle & Périmètre & RMSE & MAE & R2 & MAPE \\
+\midrule
+ARDL — Bénin & IS (T=24) & 0.7444 & 0.6434 & 0.9504 & 4.8347 \\
+ARDL — Bénin & OOS (T=5) & 3.0712 & 3.0008 & -3.4435 & 17.6546 \\
+Panel FE UEMOA & Train (N=8) & 1.8953 & 1.4480 & 0.9241 & 15.7736 \\
+Panel FE UEMOA & Test (N=8) & 2.4170 & 1.9093 & 0.8772 & 8.9583 \\
+Random Forest & Train (N=8) & 0.7254 & 0.5523 & 0.9889 & 6.9943 \\
+Random Forest & Test (N=8) & 1.8251 & 1.5361 & 0.9300 & 7.5704 \\
+XGBoost & Train (N=8) & 0.2428 & 0.1876 & 0.9988 & 2.1160 \\
+XGBoost & Test (N=8) & 2.0127 & 1.7034 & 0.9149 & 8.1760 \\
+\bottomrule
+\end{tabular}
+\end{table}
