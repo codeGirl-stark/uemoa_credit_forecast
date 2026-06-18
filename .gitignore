@@ -19,4 +19,4 @@ Thumbs.db
 /tmp/
 
 # Données brutes volumineuses (optionnel — décommenter si trop lourd)
-data/raw/
+#data/raw/
